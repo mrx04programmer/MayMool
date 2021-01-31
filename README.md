@@ -28,3 +28,13 @@ macchanger     | ['sudo apt install macchanger'](https://github.com/alobbs/macch
           $ sudo python maymool.py
           -----------------------------------------------------
           Note: maymool have don't the argument of '--help'
+- Lo primero que hará es configurar las tablas ARP para tener control de rediccionamiento que se le envía en la red.
+![CHECKING TABLES...](https://funkyimg.com/i/3at2M.png)
+- Acontinuación, te pedirá que ingreses la interfaz de red a trabajar.
+![INTERFACE](https://funkyimg.com/i/3at3k.png)
+- Luego te preguntara si deseas escanear objetivos con nmap (el archivo se exporta como scan-red.log) y introducimos la ip local del sistema (command: ifconfig),ip victima y el gateway(ip del router o modem)
+![NMAP SCAN](https://funkyimg.com/i/3at2Q.png)}
+- Si observamos el archivo generado 'scan-red.log', se encuentra los dispositivos conectados a la red, sus hostname, MAC,OS,etc.
+![SCAN-RED.log](https://funkyimg.com/i/3at3x.png)
+- MayMool en acción: En la ventana del terminal principal, mostrara el contenido encriptado con el que se consiguio ettercap. En la ventana de xterm, tendremos en primer plano la ip victima y esperando a que la vicitima habra algún contenido
+![MayMool In Accion](https://funkyimg.com/i/3at3Z.png)
