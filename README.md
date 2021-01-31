@@ -15,12 +15,15 @@ python all     | [https://www.python.org/ or 'sudo apt install python'](https://
 ettercap       | [https://www.ettercap-project.org/downloads.htm or 'sudo apt install ettercap'](https://www.ettercap-project.org/downloads.html)
 macchanger     | ['sudo apt install macchanger'](https://github.com/alobbs/macchanger)
 ### Ejecutar 🚬
+##### Privacidad :
     1. Is advisable to use macchanger for your anonymity:
           ===================================================
           $ sudo macchager --mac=00:11:22:33:44:55 wlp1s0
           ===================================================
           used:  sudo macchager --mac=<mac false custom> <interface>
 
+
+##### Ejecución:
     2. Executing the script evil:
           $ sudo python maymool.py
           -----------------------------------------------------
