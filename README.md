@@ -38,3 +38,8 @@ macchanger     | ['sudo apt install macchanger'](https://github.com/alobbs/macch
 ![SCAN-RED.log](https://funkyimg.com/i/3at3x.png)
 - MayMool en acción: En la ventana del terminal principal, mostrara el contenido encriptado con el que se consiguio ettercap. En la ventana de xterm, tendremos en primer plano la ip victima y esperando a que la vicitima habra algún contenido
 ![MayMool In Accion](https://funkyimg.com/i/3at3Z.png)
+- El contenido mostrado con mitm6 , se mostrara de la siguiente manera: 
+![mitm6 window](https://funkyimg.com/i/3at47.png)
+
+            Primera parte: página/servicio/servidor o ip
+            Segunda parte: Tipo de mensaje que llega hacia la victima.
