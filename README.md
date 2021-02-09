@@ -2,8 +2,6 @@
 Ataque Man in the Middle dentro de una red local. 👨‍💻
 ###### Attack Man In The Middle in the network local 👨‍💻
 Automatizador de ataque Man in the Middle.
-https://ibb.co/PrgR98V
-https://ibb.co/QmP51nf
 ### Pre-Requisitos 📋
 
 Names          | Method of install
